@@ -1,0 +1,41 @@
+<doctype html>
+   <>
+    <title>Farm User - Python Flask MySQL CRUD</title>
+    <head>
+	    <link type="text/css"  rel="stylesheet" href="{{ url_for('static', filename='css/spec.css') }}"/>
+    </head>
+    <header>Predict Yield </header>
+    <h2>
+    <form method="post" action="/predict">
+        <dl>
+            <p>
+                <input name="pH" value="" type="text" placeholder="Soil pH" autocomplete="off" required>
+            </p>
+            <p>
+                <input name="Rainfall" value="" type="text" placeholder="Rainfall" autocomplete="off" required>
+            </p>
+            <p>
+                <input name="Temperature" value="" type="text" placeholder="Temperature" autocomplete="off" required>
+            </p>
+        </dl>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+    <p>
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul class=flashes>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+    </p>
+    </doctype>
+    </h2>
+    
+    <h2>
+    {{ output }}
+    </h2>

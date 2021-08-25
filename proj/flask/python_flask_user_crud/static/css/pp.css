@@ -1,0 +1,348 @@
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar-default {
+  background: rgba(192, 192, 192, 0.9);
+}
+
+.navbar-header {
+  margin-left: 20em;
+}
+
+.navbar-header a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black !important;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-right: 25em;
+  color: black;
+}
+
+.navbar-nav li a {
+  color: black !important;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(28, 28, 28, 0.1);
+}
+
+.navbar-nav li:hover {
+  background-color: #E0E0E0;
+}
+
+.jumbotron {
+  background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.intro-wrapper {
+  width: 70em;
+   margin: auto;
+  text-align: center;
+  margin-bottom: 27.5em;
+}
+
+.intro-wrapper h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  font-size: 5.25em;
+  text-shadow: 2px 2px 2px black; 
+  font-weight: bold;
+  margin-top: 2.5em;
+}
+
+.intro-wrapper p {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#home-line {
+  width: 70em;
+  margin: auto;
+}
+
+.btn-group {
+  margin-top: 1.25em;
+}
+
+.btn-group .btn {
+  margin-left: .5em;
+  margin-right: .5em;
+  border-radius: 5px !important;
+  box-shadow: 4px 2px 2px #212121;
+  border: 2px solid black;
+  height: 3.5em;
+}
+
+.btn-group .btn:hover {
+  background: rgba(100, 100, 100, 0.8);
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+
+.btn-group .btn:hover a {
+  color: white;
+  -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+  text-decoration: none;
+}
+
+.btn-group .btn a {
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: 18px;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 1px;
+}
+
+.btn-group .btn a i {
+  margin-right: 10px;
+}
+
+.profile-overlay {
+  background: url('https://s-media-cache-ak0.pinimg.com/originals/f2/e9/53/f2e95302ce9ce1c1a0356fe5bed478b1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.profile-overlay .row {
+  width: 85em;
+  margin: auto;
+}
+
+.profile-overlay .row .col-xs-6 {
+  margin-top: 7.5em;
+  margin-bottom: 15em;
+}
+
+.row .col-xs-6 h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.row .col-xs-6 p {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin-top: 1.5em;
+  width: 20em;
+}
+
+.row .col-xs-6 p a {
+  color: white;
+  text-decoration: underline;
+}
+
+.row .col-xs-6 p a:hover {
+  color: blue;
+}
+
+.profile-overlay .row img {
+  width: 22.5em;
+  border-radius: 50%;
+  margin-top: 6em;
+  margin-left: 7.5em;
+  box-shadow: 1.5px 1.5px 1.5px #212121;
+  border: 1px solid gray;
+}
+
+.portfolio-overlay {
+  background: url('http://st.houzz.com/simgs/09d121d00f1d4be0_4-5678/modern-wall-sconces.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 
+}
+
+.portfolio-container {
+  margin: auto;
+  width: 70em;
+}
+
+.portfolio-container h2, .portfolio-container p {
+  margin: auto;
+  text-align: center;
+}
+
+.portfolio-container h2 {
+  padding-top: 2.5em;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.portfolio-container p {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 1em;
+}
+
+.portfolio-container .col-sm-6 {
+  width: 35em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.portfolio-container .col-sm-6:hover {
+  box-shadow: 4px 4px 4px black;
+   -webkit-transition: box-shadow 0.4s ease;
+    -moz-transition: box-shadow 0.4s ease;
+    -o-transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease;
+}
+
+.portfolio-container .col-sm-6:hover .thumbnail {
+  opacity: .9;
+}
+
+.portfolio-container .col-sm-6 .thumbnail {
+  background:rgb(0,0,0);  
+    background: transparent\9;  
+    background:rgba(0,0,0,0.4);  
+}
+
+.col-sm-6 .thumbnail .caption {
+  background-color: #212121;
+  border-top: 2px solid white;
+}
+
+.col-sm-6 .thumbnail .caption h3, .col-sm-6 .thumbnail .caption p {
+  color: white;
+  text-align: center;
+}
+
+.col-sm-6 .thumbnail .caption p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.connect-container {
+   background: url('https://i.imgur.com/6uFYjKC.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-top: -20px;
+}
+
+.connect-inner {
+  margin: auto;
+  width: 75em;
+  padding-top: 6.5em;
+  padding-bottom: 22.5em;
+}
+
+.connect-inner .row h2 {
+ color: #212121;
+  font-weight: bold;
+  font-size: 30px;
+  width: 25em;
+}
+
+.connect-inner .row .btn-group-vertical {
+  margin-left: 23em;
+  margin-top: 4em;
+}
+
+.connect-inner .row .btn-group-vertical .btn {
+  border-radius: 5px !important;
+  box-shadow: 4px 2px 2px #212121;
+  border: 2px solid black;
+  height: 3.5em;
+  width: auto;
+  margin-bottom: 1.25em;
+}
+
+.connect-inner .row .btn-group-vertical .btn:hover {
+  background: rgba(0, 0, 0, 0.8);;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+
+.connect-inner .row .btn-group-vertical .btn a {
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: 18px;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 1px;
+}
+
+.connect-inner .row .btn-group-vertical .btn:hover a {
+  color: white;
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+}
+
+.btn-group-vertical .btn a i {
+  margin-right: 10px;
+}
+
+footer, .footer-left {
+  background-color: #CCCCCC;
+  overflow-y: hidden;
+  height: auto;
+}
+
+.footer-left {
+  margin-left: 20em;
+}
+
+footer ul {
+  margin-top: 4em;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: .5em;
+}
+
+footer ul .push-right {
+  margin-left: .5em;
+}
+
+footer ul a li {
+  font-weight: bold;
+}
+
+footer ul a li:hover {
+  text-decoration: underline;
+}
+
+footer li p {
+  margin-top: 1em;
+  margin-bottom: 4em;
+  color: #949494;
+  font-size: 13px;
+}

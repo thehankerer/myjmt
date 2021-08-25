@@ -1,0 +1,18 @@
+<doctype html>
+<title>Farm Users App - DEMETER</title>
+
+<p><a href="{{ url_for('.farm_user_view') }}"> Farm User </a></p>
+<p><a href="{{ url_for('.cropdb_view') }}"> Crops Database </a></p>
+
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul class=flashes>
+		{% for message in messages %}
+		  <li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+

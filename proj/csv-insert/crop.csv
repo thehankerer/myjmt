@@ -1,0 +1,15 @@
+nitro,pota,phos,lati,longi,month,majorcrop,minorcrop,duration,yield
+17,20,60,20,11,77,February,Wheat,None,90,1000
+18,20,60,20,11,77,March,Wheat,None,90,1000
+19,20,60,20,11,77,April,Wheat,None,90,1000
+20,20,60,20,11,77,May,Wheat,None,90,1000
+21,20,60,20,11,77,June,Wheat,None,90,1000
+22,20,60,20,11,77,July,Wheat,None,90,1000
+23,20,60,20,11,77,August,Rice,None,90,1000
+24,20,60,20,11,77,September,Rice,None,90,1000
+25,20,60,20,11,77,October,Rice,None,90,1000
+26,20,60,20,11,77,November,Rice,None,90,1000
+27,20,60,20,11,77,December,Rice,None,90,1000
+28,30,30,40,11,77,January,Sugarcane,None,90,1000
+29,30,30,40,11,77,February,Sugarcane,None,90,1000
+30,30,30,40,11,77,March,Sugarcane,None,90,1000
